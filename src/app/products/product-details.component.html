@@ -1,0 +1,13 @@
+<section class="card">
+    <header class="card-header">
+        {{ pageTitle + ': ' + product?.productName }}
+    </header>
+    <div class="card-body">
+        <h1>Product ID: {{ product?.productId }}</h1>
+    </div>
+    <footer class="card-footer">
+        <button class="btn btn-outline-secondary" (click)="onBack()">
+            <i class="fa fa-chevron-left"></i> Back
+        </button>
+    </footer>
+</section>
